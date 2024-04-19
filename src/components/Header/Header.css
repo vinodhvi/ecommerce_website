@@ -1,0 +1,39 @@
+.headersearch {
+    border: 2px solid #BCE3C9;
+    border-radius: 4px;
+    max-width: 700px;
+    background-color: #fff;
+    padding: 10px 10px;
+}
+.header{
+    padding: 10px 0;
+}
+.header-search input {
+    border: unset;
+    outline: none;
+    width: 100%;
+    font-size: 13px;
+}
+.header-search {
+    width: 70%;
+    position: relative;
+}
+.header-dropdown{
+    width: 30%;
+    position: relative;
+}
+.header-dropdown:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 20px;
+    background: #ededed;
+    right: 25px;
+    top: 0px;
+}
+.search-icon {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    color: #b9b9b9;
+}
