@@ -15,11 +15,11 @@
     font-size: 13px;
 }
 .header-search {
-    width: 70%;
+    width: 60%;
     position: relative;
 }
 .header-dropdown{
-    width: 30%;
+    width: 40%;
     position: relative;
 }
 .header-dropdown:after {
@@ -36,4 +36,26 @@
     right: 0;
     top: 0px;
     color: #b9b9b9;
+}
+.compare-section {
+    display: flex;
+    gap: 12px;
+}
+.compare-section img{
+    width: 19%;
+}
+.compare-section svg{
+    font-size: 20px !important;
+}
+.compare-section li span{
+    padding-left: 12px;
+}
+.header{
+    padding: 20px 20px;
+}
+.dropdown-menu {
+    display: block !important;
+    position: absolute;
+    left: -11px;
+    top: 33px;
 }
